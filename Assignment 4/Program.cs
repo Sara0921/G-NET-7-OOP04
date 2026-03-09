@@ -15,6 +15,11 @@
             //Method Overloading >> Same method name, different parameter lists — within the same class. Resolved at compile time.
             // Method Overriding >> Derived class overrides a virtual method from the base class using the override keyword.
             #endregion
+            #region Question03
+            //virtual  >> Placed in the parent class. Marks the method as overridable.
+            //override >> Placed in the child class. Actually performs the override.
+            //sealed >> Placed in a child class to prevent grandchildren from overriding again.
+            #endregion
             #endregion
 
         }
